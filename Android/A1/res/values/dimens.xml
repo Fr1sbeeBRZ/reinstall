@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="generalMargin">10dp</dimen>
+    <dimen name="bttnTopBottonMargin">20dp</dimen>
+    <dimen name="marginEt">10dp</dimen>
+    <dimen name="bttnMrgin">30dp</dimen>
+    <dimen name="scrollHeight">100dp</dimen>
+    <dimen name="lvTop">50dp</dimen>
+    <dimen name="marginGuardar">15dp</dimen>
+</resources>

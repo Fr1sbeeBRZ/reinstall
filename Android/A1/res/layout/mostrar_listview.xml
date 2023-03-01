@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginEt"
+        android:layout_marginBottom="@dimen/marginEt"
+        android:hint="@string/etNombre"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etDescripcion"/>
+
+    <Button
+        android:id="@+id/bttnGuardarListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginGuardar"
+        android:layout_marginBottom="@dimen/marginGuardar"
+        android:gravity="center"
+        android:text="@string/bttnGuardar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccioneUnaPersona"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+         <ListView
+             android:id="@+id/lvPersonas"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/scrollHeight"/>
+    </ScrollView>
+
+    
+</LinearLayout>

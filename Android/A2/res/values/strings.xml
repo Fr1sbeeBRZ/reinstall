@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">A2-a22ikeraa</string>
+    <string name="bttnPlay">Play</string>
+    <string name="bttnRecord">Record</string>
+    <string name="bttnPick">Take a pic</string>
+    <string name="toastDeniedWrite">the app need the external write permission for work</string>
+    <string name="toastDeniedRead">the app need the external read permission for work</string>
+    <string name="toastDeniedRecord">the app need the record audio permission to do this function</string>
+    <string name="toastDeniedCamera">the app need the camera permission to do this function</string>
+    <string name="dialogRecordTitle">Recording</string>
+    <string name="stopRecord">Stop recording</string>
+    <string name="cancelRecord">Cancel recording</string>
+</resources>

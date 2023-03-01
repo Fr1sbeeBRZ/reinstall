@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        android:id="@+id/pathPref"
+        android:key="rutaPersona"
+        android:title="@string/tituloPrefenecias"
+        android:summary="@string/resumenPreferencias"
+        android:defaultValue="@string/defaultValue"
+        />
+
+</PreferenceScreen>

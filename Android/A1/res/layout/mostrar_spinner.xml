@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNombreSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginEt"
+        android:layout_marginBottom="@dimen/marginEt"
+        android:hint="@string/etNombre"/>
+
+    <TextView
+        android:id="@+id/tvDescripcionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etDescripcion"/>
+
+    <Button
+        android:id="@+id/bttnGuardarSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginGuardar"
+        android:layout_marginBottom="@dimen/marginGuardar"
+        android:gravity="center"
+        android:text="@string/bttnGuardar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccioneUnaPersona"/>
+
+    <Spinner
+        android:id="@+id/spPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

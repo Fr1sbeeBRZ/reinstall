@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">A1.a22ikeraaDefinitiva</string>
+    <string name="bttnAlta">Registrar persona</string>
+    <string name="bttnMostrar">Mostrar personas</string>
+    <string name="settings">Ajustes</string>
+    <string name="etNombre">Nombre</string>
+    <string name="etDescripcion">Descripcion</string>
+    <string name="bttnAdd">Añadir</string>
+    <string name="seleccioneUnaPersona">Seleccione una persona</string>
+    <string name="toastRegistrar">Tanto los campos nombre y descripción tiene que estar cubiertos</string>
+    <string name="tituloMostrar">Mostrar personas</string>
+    <string name="mensajeMostrar">Seleccione como quere mostrar a las personas</string>
+    <string name="listviewMostrar">Listview</string>
+    <string name="spinnerMostrar">Spinner</string>
+    <string name="tituloPrefenecias">Ruta de exportacion</string>
+    <string name="resumenPreferencias">Seleccione la ruta en la que quiere que se exporte el archivo con los datos de la persona</string>
+    <string name="defaultValue">DATOS</string>
+    <string name="bttnGuardar">Guardar persona</string>
+    <string name="toastPersonaRegistrada">Persona registrada con éxito</string>
+    <string name="toastErrorRegistrando">Error registrando a la persona</string>
+    <string name="toastGuardar">Se necesita seleccionar a una persona</string>
+    <string name="tituloCargarDB">Cargar Database</string>
+    <string name="mensajeCargarDB">Selecciona de donde quieres cargar la BD</string>
+    <string name="Assets">Assets</string>
+    <string name="Code">Código</string>
+    <string name="AssetsExiste">Ya existe una base de datos</string>
+    <string name="toast_bd_copiada">Base de datos copiad con éxito</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutGap">10dp</dimen>
+    <dimen name="spMusicGap">15dp</dimen>
+    <dimen name="imViewPicture">20dp</dimen>
+</resources>
